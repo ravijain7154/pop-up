@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>popup-form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Modal Example</h2>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+  <!-- Modal -->
+  <div class="modal fade custom-modal" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg"> 
+      <!-- Modal content-->
+      <div class="modal-content">
+       <!-- Modal-body -->
+    <div class=" row modal-body ">
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      
+          <div class="col-sm-5 left ">
+           <div class="box">   
+            <img src="1pDgTbju8RWDDonzIR8svAmgrOWh5M7B9LHQXYQe_900x.webp"  class="img-top">
+            <div class="box-body">
+              <p class="box-title"> Estate 25 Cttw Ruby & sapphire Diamond Bracelet 11970</p>
+             <span> $3800.00 </span>
+           </div>    
+         </div>
+        </div>
+        <div class="col-sm-7 right">
+            <div class="content">
+             <h4 class="modal-title">Make an Offer!</h4>
+             <p>Don't like the price you see? for a limited time this product is available for our "Make you own offer" promotion below</p>
+            <div class="form">
+             <form class="form-group">
+                 <div class="input-group input-group-lg">
+                     <input type="text" class="form-control" placeholder="$3800.00">
+               </div>
+               <div class="input-group input-group-lg">
+                   <input type="email" class= "form-control" placeholder="Enter your email"></div>
+                <div class="input-group input-group-lg">
+                    <input type="text" class= "form-control"  placeholder="Shipping Address"></div>
+                 <div class="input-group input-group-lg">
+                     <input type="text" class= "form-control"  placeholder=""> </div>
+                   <div class="input-group input-group-lg">
+                       <button type="submit" value="Send Offer" class="form-control custom-btn">
+                       send offer</button></div>
+            </form>
+            </div>
+        </div>          
+          </div>
+        </div>
+    </div>
+  </div>
+ </div>
+</div>
+</body>
+</html>

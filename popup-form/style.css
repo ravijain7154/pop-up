@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.custom-modal{padding:0;}
+button.close {
+    position:absolute; 
+    top:0; 
+    right:0; 
+    width:20px; 
+    z-index:9; 
+    color:"black"!important;
+}
+
+.modal-body{
+    text-align: center;
+    margin: 0;
+    padding:0;
+}
+.left {
+     font-size: 16px;
+    position:relative;
+    top: 100px;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img-top {
+    max-width: 100%;
+  width:250px;
+}
+.box-title {
+    color: darkgray;
+    font-weight:550;
+    margin-bottom: 0px;
+}
+div.box span {
+    color:mediumseagreen;
+      font-weight:bolder;
+}
+/*div.box .caption {
+    
+}*/
+.right {
+    background-color: forestgreen;
+    color: white;
+
+}
+.content {
+    padding: 50px 0!important;
+}
+.right .modal-title {
+    font-size:20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-spacing:1.5px;
+    line-height: 2em;
+}
+div.right p {
+    color:whitesmoke;;
+    margin:0px auto 20px auto;
+    width:85%;
+    line-height:1.4;
+    font-size: 18px;
+    text-transform:capitalize;
+}
+.input-group {
+    margin: auto;
+    width: 80%;
+    padding: 6px 0px;  
+}
+.custom-btn{
+    margin-top: 5px;
+    font-weight:550;
+    color: gray;
+    background-color: whitesmoke;
+}
+.custom-btn:hover {
+    
+}
+
+@media only screen and (max-width:767px){
+    .left{top: auto}
+    .box {
+    padding: 15px 0 50px;
+}
+}
